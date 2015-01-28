@@ -1,0 +1,43 @@
+''    literal string
+""    can do stuff like "blah{$a}blah"
+
+
+
+
+phpinfo();
+
+$output = array();
+$o = "";
+exec('touch ' . $db_name, $out);
+for ($i=0; $i < count($out); $i++)
+   $o = $o + $i . " " . $output[$i] . "<br />";
+print $o;
+
+
+echo $this->exec('""');
+
+
+//sqlite3 test.db "SELECT * FROM Cars;"
+//sqlite
+//function s($command) {
+    //echo "Hello world!";
+//   $shell_str = "sqlite3 test.db \"SELECT * FROM Cars;\"";
+//   return $shell_str;
+//}
+//writeMsg(); // call the function
+//$output = array();
+//$command = "ps -e";
+//$command = "sqlite3 test.db \"SELECT * FROM Cars;\"";
+//exec($command,$output); 
+//for($i = 0; $i < count($output); $i++) {
+//   echo($i + 1 . ". " . $output[$i] . "<br />");
+   //shows var info var_dump($output[$i] . "<br/>");
+//}
+
+//$cmd = "sqlite3 $this->db_name '$cmd;' 2>&1";
+
+1 . 2 = "12"
+1.2   = 1.2
+
+'stuff{$a}dsfds'
+
